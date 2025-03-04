@@ -1,21 +1,33 @@
+- [Read-Twin](#read-twin)
+    - [Summary](#summary)
+    - [Installation](#installation)
+    - [Documentation](#documentation)
+    - [Quick Example](#quick-example)
+    - [Call for Contributions](#call-for-contributions)
+    - [Citation](#citation)
+
 # Read-Twin
+
 ORNL’s Real-Twin project is a streamlined scenario generation tool that automatically integrates real-world traffic data to create high-fidelity digital twins for simulating the impacts of connected and automated vehicles in microsimulation environments.
 
-# Summary
+## Summary
 
-# Installation
+## Installation
 
-# Documentation
-User guide and API documentation can be found at: 
+## Documentation
 
-# Quick Example
+User guide and API documentation can be found at:
 
-# Call for Contributions
+## Quick Example
+
+## Call for Contributions
+
 The realtwin project welcomes your expertise and enthusiasm!
 
 Small improvements or fixes are always appreciated. If you run into any problems, find bugs, or think of useful improvements and enhancements, feel free to open an issue. If you add a feature or fix a bug yourself and want it considered for integration, feel free to open a pull request with the changes. Please provide a detailed description of what the pull request is doing and briefly list any significant changes made. If it's in regards to a specific issue, please include or link the issue number.
 
 Writing code isn't the only way to contribute to realtwin. You can also:
+
 - review pull requests
 - help us stay on top of new and old issues
 - develop tutorials, presentations, and other educational materials
@@ -26,5 +38,6 @@ Writing code isn't the only way to contribute to realtwin. You can also:
 
 For more information about the ways you can contribute to grid2demand, visit our GitHub. If you' re unsure where to start or how your skills fit in, reach out! You can ask by opening a new issue or leaving a comment on a relevant issue that is already open on GitHub.
 
-# Citation
+## Citation
+
 To cite usage of realtwin, please use the folowing bibtex:
