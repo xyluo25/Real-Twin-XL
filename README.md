@@ -1,4 +1,4 @@
-- [Read-Twin](#read-twin)
+- [Real-Twin](#read-twin)
     - [Summary](#summary)
     - [Installation](#installation)
     - [Documentation](#documentation)
@@ -6,7 +6,7 @@
     - [Call for Contributions](#call-for-contributions)
     - [Citation](#citation)
 
-# Read-Twin
+# Real-Twin
 
 ORNL’s Real-Twin project is a streamlined scenario generation tool that automatically integrates real-world traffic data to create high-fidelity digital twins for simulating the impacts of connected and automated vehicles in microsimulation environments.
 
