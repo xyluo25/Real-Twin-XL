@@ -36,7 +36,7 @@ Writing code isn't the only way to contribute to realtwin. You can also:
 - help with outreach and onboard new contributors
 - write grant proposals and help with other fundraising efforts
 
-For more information about the ways you can contribute to grid2demand, visit our GitHub. If you' re unsure where to start or how your skills fit in, reach out! You can ask by opening a new issue or leaving a comment on a relevant issue that is already open on GitHub.
+For more information about the ways you can contribute to realtwin, visit our GitHub. If you' re unsure where to start or how your skills fit in, reach out! You can ask by opening a new issue or leaving a comment on a relevant issue that is already open on GitHub.
 
 ## Citation
 
