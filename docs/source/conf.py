@@ -16,9 +16,9 @@ import datetime
 # import warnings
 # import inspect
 
-sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../../'))
-sys.path.insert(1, os.path.abspath('../../realtwin'))
+# sys.path.insert(0, os.path.abspath('.'))
+# sys.path.insert(0, os.path.abspath('../../'))
+# sys.path.insert(1, os.path.abspath('../../realtwin'))
 
 root = Path(__file__).resolve().parents[2]
 sys.path = [str(root)] + sys.path
