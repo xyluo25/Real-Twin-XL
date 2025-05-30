@@ -4,6 +4,7 @@
   - [Documentation](#documentation)
   - [Quick Example](#quick-example)
   - [Call for Contributions](#call-for-contributions)
+  - [Funding](#funding)
   - [Citation](#citation)
 
 # Real-Twin
@@ -109,6 +110,14 @@ Writing code isn't the only way to contribute to realtwin. You can also:
 - write grant proposals and help with other fundraising efforts
 
 For more information about the ways you can contribute to realtwin, visit our GitHub. If you' re unsure where to start or how your skills fit in, reach out! You can ask by opening a new issue or leaving a comment on a relevant issue that is already open on GitHub.
+
+
+## Funding
+
+This work is supported by the US Department of Energy, Vehicle
+Technologies Office, Energy Efficient Mobility Systems (EEMS)
+program, under project Real-Twin (EEMS114).
+
 
 ## Citation
 
