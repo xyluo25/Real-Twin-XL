@@ -1,0 +1,16 @@
+pandas
+networkx
+openpyxl
+osmnx
+sumolib
+traci
+pyproj
+pyufunc>=0.4.1
+PyYAML
+Requests
+Shapely
+mealpy
+xlrd
+folium
+matplotlib
+rich

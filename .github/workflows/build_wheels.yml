@@ -1,0 +1,38 @@
+name: Build-wheels
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build_wheels:
+    name: Build wheels on ${{ matrix.os }} ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        # macos-13 is an intel runner, macos-14 is apple silicon
+        os: [ubuntu-latest, windows-latest, macos-13, macos-14] # macos-14
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Build wheels
+        run: |
+          pip install build pyufunc utdf2gmns
+          python -m build --outdir dist
+          # python3 -m build --outdir dist
+
+      - name: build-sdist
+        run: |
+          pipx run build --sdist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wheels-${{ matrix.os }}-${{ matrix.python-version }}-${{ strategy.job-index }}
+          path: |
+            dist/*.tar.gz
+            dist/*.whl
