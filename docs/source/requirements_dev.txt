@@ -1,5 +1,5 @@
 pandas==2.2.3
-pyufunc==0.3.7
+pyufunc
 pylint
 pytest
 sphinx  # https://sphinx-themes.org/
