@@ -1,13 +1,12 @@
 [build-system]
-requires = ["setuptools>=42", "wheel", "twine"]
+requires = ["setuptools>=77.0", "wheel", "twine"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "realtwin"
-version = "0.0.1alpha"
+version = "0.0.9.dev2"
 description = "ORNL's Real-Twin project is a streamlined scenario generation tool that automatically integrates real-world traffic data to create high-fidelity digital twins for simulating the impacts of connected and automated vehicles in microsimulation environments."
 authors = [
-    {name = "Xiangyong Luo", email = "luox1@ornl.gov"},
     {name = "ORNL-RealTwin", email = "realtwin@ornl.gov"},
 ]
 maintainers = [
@@ -19,28 +18,22 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
-    "License :: OSI Approved :: MIT License",
     'Intended Audience :: Developers',
     "Operating System :: OS Independent",
     'Topic :: Software Development :: Libraries'
 ]
 
 readme = 'README.md'
-# license = {file = 'LICENSE'}
-# license = {text = "Apache License"}
+license-files = ["LICENSE"]
 
 requires-python = ">=3.10"
 keywords = ["Real-Twin", "Digital Twin", "Traffic Micro-simulation", "Scenario Generation", "Connected and Automated Vehicles", "CAV", "Traffic Simulation", "SUMO", "VISSIM", "AIMSUN"]
 
 dynamic = ["dependencies"]
 
-[project.license]
-file="LICENSE"
-
 [project.urls]
 "Homepage" = 'https://github.com/ORNL-Real-Sim/Real-Twin'
 'Bug Tracker' = 'https://github.com/ORNL-Real-Sim/Real-Twin/issues'
-'License' = 'https://github.com/ORNL-Real-Sim/Real-Twin/blob/main/LICENSE'
 'Contact' = 'https://github.com/ORNL-Real-Sim/Real-Twin'
 
 [tool.setuptools.dynamic]
@@ -50,7 +43,8 @@ dependencies = {file = ["requirements.txt"]}
 include-package-data = true
 
 [tool.setuptools.packages.find]
-where = ["realtwin"]
+where = ["."]
+include = ["realtwin", "realtwin.*"]
 
 [tool.setuptools.package-data]
 "*" = ["*.txt", "*.rst", '*.yaml', '*.zip', '*.json']

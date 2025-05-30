@@ -32,7 +32,7 @@ sys.setrecursionlimit(5000)
 project = "realtwin"
 copyright = f'2025 - {datetime.datetime.now().year}, ORNL-RealTwin'
 author = 'ORNL-RealTwin'
-version = "0.1.0"
+version = "0.0.9.dev2"
 release = version
 language = "en"
 
