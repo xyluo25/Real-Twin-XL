@@ -56,6 +56,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx_copybutton',
 ]
+autosummary_generate = True
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "sphinx"
