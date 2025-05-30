@@ -1,5 +1,5 @@
 - [Real-Twin](#read-twin)
-  - [Summary](#summary)
+  - [Description](#-real-twin-a-unified-simulation-scenario-generation-tool-for-mobility-research)
   - [Installation](#installation)
   - [Documentation](#documentation)
   - [Quick Example](#quick-example)
@@ -7,10 +7,27 @@
   - [Citation](#citation)
 
 # Real-Twin
+## 🔁 Real-Twin: A Unified Simulation Scenario Generation Tool for Mobility Research
 
-ORNL’s Real-Twin project is a streamlined scenario generation tool that automatically integrates real-world traffic data to create high-fidelity digital twins for simulating the impacts of connected and automated vehicles in microsimulation environments.
+**Real-Twin** is a unified, **model-agnostic scenario generation tool** designed to streamline and standardize the evaluation of emerging mobility technologies. It provides an end-to-end framework that includes robust workflows, integrated tools, and comprehensive metrics to generate, calibrate, and benchmark microscopic traffic simulation scenarios across multiple platforms.
 
-## Summary
+### ✨ Key Features
+
+- **Unified Scenario Generation**  
+  Generate transferable, simulation-ready scenarios from heterogeneous data sources using a consistent workflow.
+
+- **Automated Calibration Workflow**  
+  Bridges simulation and real-world data, minimizing manual effort and making traffic simulation more accessible to researchers and engineers.
+
+- **Model-Agnostic Compatibility**  
+  Supports **SUMO**, **VISSIM**, and **AIMSUN** for cross-platform scenario generation and benchmarking. Enables reliable comparisons and reproducibility across different simulation tools.
+
+- **Consistent Scenarios across Different Simulators**  
+  Generate comparable simulation scenarios across different microscopic traffic simulators, providing users the ability to conduct benchmarking and cross-validation that are crucial for ensuring the reliability and reproducibility of simulation results.
+
+- **Emerging Technology Support**  
+  Includes a scenario database and pipeline for studying **autonomous vehicles (AVs)**, with planned extensions to **CAVs**, **EVs**, and other advanced technologies.
+
 
 ## Installation
 
